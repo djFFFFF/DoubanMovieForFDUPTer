@@ -1,0 +1,15 @@
+{
+  "name": "DoubanMovieForFDUPTer",
+  "version": "1.0",
+  "content_scripts": [{
+      "matches": ["http://movie.douban.com/*"],
+      "js": ["js/jquery.js", "js/insomnia.js"]
+  }],
+  "permissions" : [
+    "tabs", "http://pt.vm.fudan.edu.cn/*"
+  ],
+  "icons" : {
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  }
+}
